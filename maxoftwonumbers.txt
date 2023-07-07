@@ -1,0 +1,18 @@
+public class Maxof_Two_Numbers
+{
+public static void main(String[] args)
+{
+int num1 = 21 , num2 = 90;
+
+System.out.println("printing the maximum of 2 numbers");
+
+if(num1==num2)
+{
+System.out.println("Both are equal");
+}
+else
+{
+System.out.println(Math.max(num1, num2)+ "is greater");
+}
+}
+}
